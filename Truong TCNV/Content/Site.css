@@ -4,10 +4,764 @@
 }
 /* Small devices (phone, <768px) */
 @media (max-width: 767px) {
+    .Header {
+        padding: 0 0 0 0;
+    }
+
+        .Header > .Top {
+            background-color: #0066ff;
+            width: 100%;
+            padding-top: 5px;
+            padding-left:0;
+            padding-right:0;
+            border-bottom: solid #ff9000;
+            height: 3.5em;
+        }
+
+            .Header > .Top > .left {
+                float: left;
+            }
+
+                .Header > .Top > .left > .Text {
+                    font-weight: bold;
+                    font-size: 0.9em;
+                    color: #fff;
+                    margin-bottom:0;
+                }
+
+            .Header > .Top > .right {
+                float: right;
+            }
+
+                .Header > .Top > .right > .TextMenu {
+                    text-decoration: none;
+                    font-size: 0.9em;
+                    color: #fff;
+                    padding-right:5px;
+                }
+
+        .Header > .Mid {
+            margin-bottom: 1em;
+        }
+
+            .Header > .Mid > .left {
+                float: left;
+            }
+
+                .Header > .Mid > .left > .Logo {
+                    text-align: center;
+                }
+
+                .Header > .Mid > .left > .Text {
+                    text-align: center;
+                    color: #0006ff;
+                    font-size: 0.7em;
+                    font-weight: bold;
+                }
+
+                    .Header > .Mid > .left > .Text > p {
+                        margin-bottom: 0;
+                    }
+
+            .Header > .Mid .right {
+                float: right;
+                padding-left: 0em;
+                padding-top: 0em;
+            }
+
+                .Header > .Mid .right > input {
+                    font-size: 1.45em;
+                    width:70%;
+                    display:inline;
+                }
+
+                .Header > .Mid .right > button {
+                    margin-top:0;
+                    width:30%;
+                    display:block;
+                    float:right;
+                    border-radius:0px;
+                }
+
+                .Header > .Mid .right > button>strong{
+                    font-size:1em;
+                }
+
+        .Header > .NavMenu {
+            padding: 0 0 0 0;
+        }
+
+            .Header > .NavMenu > .navbar-default {
+                background-color: #fff;
+                border-color: #587dff;
+                margin-bottom: 0px;
+            }
+
+                .Header > .NavMenu > .navbar-default .navbar-nav > li > a {
+                    color: #0006ff;
+                    font-size: 1em;
+                    padding-left: 0;
+                }
+    /*Page Home*/
+    .Body {
+        padding: 0 0 0 0;
+    }
+
+        .Body > .Banner {
+            padding: 0 0px 5px 0px;
+        }
+
+            .Body > .Banner > img {
+                width: 100%;
+            }
+
+        /*Hoạt động*/
+        .Body > .HoatDong {
+            padding: 5px 0px 5px 0px;
+        }
+
+            .Body > .HoatDong > .TinChinh {
+                padding: 0 0 0 0;
+            }
+
+                .Body > .HoatDong > .TinChinh > .TieuDe {
+                    font-size: 2em;
+                }
+
+                .Body > .HoatDong > .TinChinh > .Tin {
+                    padding:5px 0 0 0;
+                    border-bottom:dotted #ccc;
+                }
+
+                .Body > .HoatDong > .TinChinh > .Tin img{
+                    padding:0;
+                }
+
+                .Body > .HoatDong > .TinChinh > .Tin h4{
+                    margin-top:0;
+                }
+
+                .Body > .HoatDong > .TinChinh > .Tin p{
+                    margin-bottom:0;
+                }
+
+                    .Body > .HoatDong > .TinChinh > .Tin > a:hover {
+                        text-decoration: dotted underline;
+                    }
+
+                    .Body > .HoatDong > .TinChinh > .Tin > a > .TieuDe {
+                        font-weight: bold;
+                        color: #ff0000;
+                    }
+
+                    .Body > .HoatDong > .TinChinh > .Tin > a > .NoiDung {
+                        color: #000;
+                    }
+
+            .Body > .HoatDong > .BaiMoi {
+                padding:0;
+            }
+
+                .Body > .HoatDong > .BaiMoi > .TieuDe {
+                    font-size: 2em;
+                }
+
+                .Body > .HoatDong > .BaiMoi > .NoiDung {
+                    border-bottom: dotted #c7c7c7;
+                    padding-bottom: 10px;
+                }
+
+                    .Body > .HoatDong > .BaiMoi > .NoiDung > a:hover {
+                        text-decoration: dotted underline;
+                    }
+
+                    .Body > .HoatDong > .BaiMoi > .NoiDung > .Ngay {
+                        color: #ff0000;
+                    }
+
+        /*Đoàn*/
+        .Body > .Doan {
+            padding: 5px 0px 5px 0px;
+        }
+
+            .Body > .Doan > .Banner > img {
+                width: 100%;
+            }
+
+            .Body > .Doan > .TinChinh {
+                padding: 0 0 0 0;
+            }
+
+                .Body > .Doan > .TinChinh > .TieuDe {
+                    font-size: 2em;
+                }
+
+                .Body > .Doan > .TinChinh > .Tin {
+                    padding:5px 0 0 0;
+                    border-bottom:dotted #ccc;
+                }
+
+                .Body > .Doan > .TinChinh > .Tin img{
+                    padding:0;
+                }
+
+                .Body > .Doan > .TinChinh > .Tin h4{
+                    margin-top:0;
+                }
+
+                .Body > .Doan > .TinChinh > .Tin p{
+                    margin-bottom:0;
+                }
+
+                    .Body > .Doan > .TinChinh > .Tin > a:hover {
+                        text-decoration: dotted underline;
+                    }
+
+                    .Body > .Doan > .TinChinh > .Tin > a > .TieuDe {
+                        font-weight: bold;
+                        color: #ff0000;
+                    }
+
+                    .Body > .Doan > .TinChinh > .Tin > a > .NoiDung {
+                        color: #000;
+                    }
+
+            .Body > .Doan > .TuyenSinh {
+                padding:10px 0 0 0;
+            }
+
+                .Body > .Doan > .TuyenSinh > .panel-primary {
+                    border-radius: 0px;
+                }
+
+                    .Body > .Doan > .TuyenSinh > .panel-primary > .panel-heading {
+                        border-top-left-radius: 0px;
+                        border-top-right-radius: 0px;
+                        text-align: center;
+                        font-size: 1.3em;
+                        background-color: #004eff;
+                    }
+
+                    .Body > .Doan > .TuyenSinh > .panel-primary > .panel-body {
+                        padding: 0 0 0 0;
+                    }
+
+                        .Body > .Doan > .TuyenSinh > .panel-primary > .panel-body > .TinChinh {
+                            padding-top: 10px;
+                            border-bottom: dotted;
+                        }
+
+                            .Body > .Doan > .TuyenSinh > .panel-primary > .panel-body > .TinChinh:hover {
+                                background-color: rgba(0, 78, 255,0.7);
+                            }
+
+                            .Body > .Doan > .TuyenSinh > .panel-primary > .panel-body > .TinChinh > .Anh {
+                            }
+
+                            .Body > .Doan > .TuyenSinh > .panel-primary > .panel-body > .TinChinh > .Tin {
+                            }
+
+                                .Body > .Doan > .TuyenSinh > .panel-primary > .panel-body > .TinChinh > .Tin > .TieuDe {
+                                    color: #ff0000;
+                                    font-size: 1.2em;
+                                    margin-bottom: 0;
+                                }
+
+                                .Body > .Doan > .TuyenSinh > .panel-primary > .panel-body > .TinChinh > .Tin > .NoiDung {
+                                    color: #000;
+                                }
+
+        /*Phòng ban*/
+        .Body > .PhongBan {
+            padding: 0;
+        }
+
+            .Body > .PhongBan > .panel-primary {
+                border-radius: 0px;
+            }
+
+                .Body > .PhongBan > .panel-primary > .panel-heading {
+                    border-top-left-radius: 0px;
+                    border-top-right-radius: 0px;
+                    text-align: center;
+                    font-size: 1.3em;
+                    background-color: #004eff;
+                }
+
+                .Body > .PhongBan > .panel-primary > .panel-body {
+                }
+
+                    .Body > .PhongBan > .panel-primary > .panel-body > .Nganh {
+                        height: 174px;
+                        padding-left:0;
+                        padding-right:0;
+                    }
+
+                        .Body > .PhongBan > .panel-primary > .panel-body > .Nganh:hover {
+                            background-color: rgba(0, 78, 255,0.7);
+                            color: white;
+                            text-decoration: dotted underline;
+                        }
+
+                        .Body > .PhongBan > .panel-primary > .panel-body > .Nganh > img {
+                        }
+
+                        .Body > .PhongBan > .panel-primary > .panel-body > .Nganh > p {
+                            font-size: 1.1em;
+                        }
+
+        .Body > .DangKy > a > img {
+            width: 100%;
+        }
+
+        /*Quốc tế*/
+        .Body > .QuocTe {
+            padding: 5px;
+        }
+
+            .Body > .QuocTe > .TieuDe {
+                font-size: 2.4em;
+            }
+
+            .Body > .QuocTe > a {
+                display: block;
+                overflow: hidden;
+                width: 1%;
+            }
+
+            .Body > .QuocTe .Co > img {
+                border: solid #ccc;
+                height: 100px;
+                width: 200px;
+            }
+
+    /*Footer*/
+    .Footer {
+        background-color: #01277d;
+        padding: 40px 40px 5px 40px;
+    }
+
+        .Footer > .LienHe {
+            color: #fff;
+            border-left: solid 1px #fff;
+        }
+
+            .Footer > .LienHe > .TieuDe {
+                font-size: 1.5em;
+                font-weight: bold;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+            .Footer > .LienHe > .NoiDungLon {
+                font-size: 1.1em;
+                margin-bottom: 15px;
+            }
+
+            .Footer > .LienHe > .NoiDung {
+                font-size: 1em;
+            }
+
+        .Footer > .HopTac {
+            color: #fff;
+            border-left: solid 1px #fff;
+        }
+
+            .Footer > .HopTac > .TieuDe {
+                font-size: 1.5em;
+                font-weight: bold;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+            .Footer > .HopTac > .NoiDung {
+                font-size: 1em;
+                color: #fff;
+            }
+
+        .Footer > .MangXH {
+            color: #fff;
+            border-left: solid 1px #fff;
+        }
+
+            .Footer > .MangXH > .TieuDe {
+                font-size: 1.5em;
+                font-weight: bold;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+            .Footer > .MangXH > .NoiDung > img {
+                padding: 0 0 0 0;
+                margin-bottom: 10px;
+            }
+
+                .Footer > .MangXH > .NoiDung > img:hover {
+                    border: solid 2px #fff;
+                }
 }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 767px) {
+    .Header {
+        padding: 0 0 0 0;
+    }
+
+        .Header > .Top {
+            background-color: #0066ff;
+            width: 100%;
+            padding-top: 5px;
+            border-bottom: solid #ff9000;
+            height: 5em;
+        }
+
+            .Header > .Top > .left {
+                float: left;
+            }
+
+                .Header > .Top > .left > .Text {
+                    font-weight: bold;
+                    font-size: 1.3em;
+                    color: #fff;
+                }
+
+            .Header > .Top > .right {
+                float: right;
+            }
+
+                .Header > .Top > .right > .TextMenu {
+                    text-decoration: none;
+                    font-size: 1.3em;
+                    color: #fff;
+                    margin-right: 1em;
+                }
+
+        .Header > .Mid {
+            margin-bottom: 1em;
+        }
+
+            .Header > .Mid > .left {
+                float: left;
+            }
+
+                .Header > .Mid > .left > .Logo {
+                    text-align: center;
+                }
+
+                .Header > .Mid > .left > .Text {
+                    text-align: center;
+                    color: #0006ff;
+                    font-size: 1.4em;
+                    font-weight: bold;
+                    padding-top: 15px;
+                }
+
+                    .Header > .Mid > .left > .Text > p {
+                        margin-bottom: 0;
+                    }
+
+            .Header > .Mid .right {
+                float: right;
+                padding-left: 5.5em;
+                padding-top: 2em;
+            }
+
+                .Header > .Mid .right > input {
+                    font-size: 1.9em;
+                    width: 70%;
+                    display:inline;
+                }
+
+                .Header > .Mid .right > button {
+                    width:30%;
+                    display:block;
+                    float:right;
+                    margin-top:0;
+                    border-radius:0px;
+                }
+
+        .Header > .NavMenu {
+            padding: 0 0 0 0;
+        }
+
+            .Header > .NavMenu > .navbar-default {
+                background-color: #fff;
+                border-color: #587dff;
+                margin-bottom: 0px;
+            }
+
+                .Header > .NavMenu > .navbar-default .navbar-nav > li > a {
+                    color: #0006ff;
+                    font-size: 1em;
+                    padding-left: 0;
+                }
+    /*Page Home*/
+    .Body {
+        padding: 0 0 0 0;
+    }
+
+        .Body > .Banner {
+            padding: 0 40px 5px 40px;
+        }
+
+            .Body > .Banner > img {
+                width: 100%;
+            }
+
+        /*Hoạt động*/
+        .Body > .HoatDong {
+            padding: 5px 10px 5px 10px;
+        }
+
+            .Body > .HoatDong > .TinChinh {
+                padding: 0 0 0 0;
+            }
+
+                .Body > .HoatDong > .TinChinh > .TieuDe {
+                    font-size: 2em;
+                }
+
+                .Body > .HoatDong > .TinChinh > .Tin {
+                    height: 370px;
+                }
+
+                    .Body > .HoatDong > .TinChinh > .Tin > a:hover {
+                        text-decoration: dotted underline;
+                    }
+
+                    .Body > .HoatDong > .TinChinh > .Tin > a > .TieuDe {
+                        font-weight: bold;
+                        color: #ff0000;
+                    }
+
+                    .Body > .HoatDong > .TinChinh > .Tin > a > .NoiDung {
+                        color: #000;
+                    }
+
+            .Body > .HoatDong > .BaiMoi {
+            }
+
+                .Body > .HoatDong > .BaiMoi > .TieuDe {
+                    font-size: 2em;
+                }
+
+                .Body > .HoatDong > .BaiMoi > .NoiDung {
+                    border-bottom: dotted #c7c7c7;
+                    padding-bottom: 10px;
+                }
+
+                    .Body > .HoatDong > .BaiMoi > .NoiDung > a:hover {
+                        text-decoration: dotted underline;
+                    }
+
+                    .Body > .HoatDong > .BaiMoi > .NoiDung > .Ngay {
+                        color: #ff0000;
+                    }
+
+        /*Đoàn*/
+        .Body > .Doan {
+            padding: 5px 10px 5px 10px;
+        }
+
+            .Body > .Doan > .Banner > img {
+                width: 100%;
+            }
+
+            .Body > .Doan > .TinChinh {
+                padding: 0 0 0 0;
+            }
+
+                .Body > .Doan > .TinChinh > .TieuDe {
+                    font-size: 2em;
+                }
+
+                .Body > .Doan > .TinChinh > .Tin {
+                    height: 345px;
+                }
+
+                    .Body > .Doan > .TinChinh > .Tin > a:hover {
+                        text-decoration: dotted underline;
+                    }
+
+                    .Body > .Doan > .TinChinh > .Tin > a > .TieuDe {
+                        font-weight: bold;
+                        color: #ff0000;
+                    }
+
+                    .Body > .Doan > .TinChinh > .Tin > a > .NoiDung {
+                        color: #000;
+                    }
+
+            .Body > .Doan > .TuyenSinh {
+            }
+
+                .Body > .Doan > .TuyenSinh > .panel-primary {
+                    border-radius: 0px;
+                }
+
+                    .Body > .Doan > .TuyenSinh > .panel-primary > .panel-heading {
+                        border-top-left-radius: 0px;
+                        border-top-right-radius: 0px;
+                        text-align: center;
+                        font-size: 1.3em;
+                        background-color: #004eff;
+                    }
+
+                    .Body > .Doan > .TuyenSinh > .panel-primary > .panel-body {
+                        padding: 0 0 0 0;
+                    }
+
+                        .Body > .Doan > .TuyenSinh > .panel-primary > .panel-body > .TinChinh {
+                            padding-top: 10px;
+                            border-bottom: dotted;
+                        }
+
+                            .Body > .Doan > .TuyenSinh > .panel-primary > .panel-body > .TinChinh:hover {
+                                background-color: rgba(0, 78, 255,0.7);
+                            }
+
+                            .Body > .Doan > .TuyenSinh > .panel-primary > .panel-body > .TinChinh > .Anh {
+                            }
+
+                            .Body > .Doan > .TuyenSinh > .panel-primary > .panel-body > .TinChinh > .Tin {
+                            }
+
+                                .Body > .Doan > .TuyenSinh > .panel-primary > .panel-body > .TinChinh > .Tin > .TieuDe {
+                                    color: #ff0000;
+                                    font-size: 1.2em;
+                                    margin-bottom: 0;
+                                }
+
+                                .Body > .Doan > .TuyenSinh > .panel-primary > .panel-body > .TinChinh > .Tin > .NoiDung {
+                                    color: #000;
+                                }
+
+        /*Phòng ban*/
+        .Body > .PhongBan {
+            padding: 5px 10px 5px 10px;
+        }
+
+            .Body > .PhongBan > .panel-primary {
+                border-radius: 0px;
+            }
+
+                .Body > .PhongBan > .panel-primary > .panel-heading {
+                    border-top-left-radius: 0px;
+                    border-top-right-radius: 0px;
+                    text-align: center;
+                    font-size: 1.3em;
+                    background-color: #004eff;
+                }
+
+                .Body > .PhongBan > .panel-primary > .panel-body {
+                }
+
+                    .Body > .PhongBan > .panel-primary > .panel-body > .Nganh {
+                        height: 174px;
+                    }
+
+                        .Body > .PhongBan > .panel-primary > .panel-body > .Nganh:hover {
+                            background-color: rgba(0, 78, 255,0.7);
+                            color: white;
+                            text-decoration: dotted underline;
+                        }
+
+                        .Body > .PhongBan > .panel-primary > .panel-body > .Nganh > img {
+                        }
+
+                        .Body > .PhongBan > .panel-primary > .panel-body > .Nganh > p {
+                            font-size: 1.1em;
+                        }
+
+        .Body > .DangKy > a > img {
+            width: 100%;
+        }
+
+        /*Quốc tế*/
+        .Body > .QuocTe {
+            padding: 5px 40px 5px 40px;
+        }
+
+            .Body > .QuocTe > .TieuDe {
+                font-size: 2.4em;
+            }
+
+            .Body > .QuocTe > a {
+                display: block;
+                overflow: hidden;
+                width: 1%;
+            }
+
+            .Body > .QuocTe .Co > img {
+                border: solid #ccc;
+                height: 100px;
+                width: 200px;
+            }
+
+    /*Footer*/
+    .Footer {
+        background-color: #01277d;
+        padding: 40px 40px 5px 40px;
+    }
+
+        .Footer > .LienHe {
+            color: #fff;
+            border-left: solid 1px #fff;
+        }
+
+            .Footer > .LienHe > .TieuDe {
+                font-size: 1.5em;
+                font-weight: bold;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+            .Footer > .LienHe > .NoiDungLon {
+                font-size: 1.1em;
+                margin-bottom: 15px;
+            }
+
+            .Footer > .LienHe > .NoiDung {
+                font-size: 1em;
+            }
+
+        .Footer > .HopTac {
+            color: #fff;
+            border-left: solid 1px #fff;
+        }
+
+            .Footer > .HopTac > .TieuDe {
+                font-size: 1.5em;
+                font-weight: bold;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+            .Footer > .HopTac > .NoiDung {
+                font-size: 1em;
+                color: #fff;
+            }
+
+        .Footer > .MangXH {
+            color: #fff;
+            border-left: solid 1px #fff;
+        }
+
+            .Footer > .MangXH > .TieuDe {
+                font-size: 1.5em;
+                font-weight: bold;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+
+            .Footer > .MangXH > .NoiDung > img {
+                padding: 0 0 0 0;
+                margin-bottom: 10px;
+            }
+
+                .Footer > .MangXH > .NoiDung > img:hover {
+                    border: solid 2px #fff;
+                }
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -21,6 +775,7 @@
             width: 100%;
             padding-top: 5px;
             border-bottom: solid #ff9000;
+            height:initial;
         }
 
             .Header > .Top > .left {
@@ -82,13 +837,17 @@
             }
 
                 .Header > .Mid > .right > input {
-                    font-size: 2.0em;
-                    width: 100%;
+                    font-size: 1.9em;
+                    width: 70%;
+                    display:inline;
                 }
 
                 .Header > .Mid > .right > button {
-                    margin-top: -5em;
-                    margin-left: 23.5em;
+                    width:30%;
+                    display:block;
+                    float:right;
+                    margin-top:0;
+                    border-radius:0px;
                 }
 
         .Header > .NavMenu {
@@ -291,6 +1050,7 @@
                             font-size: 1.1em;
                         }
 
+        /*Quốc tế*/
         .Body > .QuocTe {
             padding: 5px 40px 5px 40px;
         }
@@ -300,15 +1060,15 @@
             }
 
             .Body > .QuocTe > a {
-                display:block;
+                display: block;
                 overflow: hidden;
                 width: 1%;
             }
 
             .Body > .QuocTe .Co > img {
                 border: solid #ccc;
-                height:100px;
-                width:200px;
+                height: 100px;
+                width: 200px;
             }
 
     /*Footer*/
@@ -368,7 +1128,7 @@
             }
 
             .Footer > .MangXH > .NoiDung > img {
-                padding:0 0 0 0;
+                padding: 0 0 0 0;
                 margin-bottom: 10px;
             }
 

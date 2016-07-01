@@ -22,13 +22,13 @@
     <header class="col-md-12 Header">
         @*Số ĐT ...*@
         <div class="col-md-12 Top">
-            <div class="col-md-5 left">
+            <div class="col-md-5 col-sm-12 left">
                 <p class="Text">Số điện thoại: (031) 3.851.365 | Fax: (031) 3.851.365</p>
             </div>
 
-            <div class="col-md-2"></div>
+            <div class="col-md-2 hidden-sm hidden-xs"></div>
 
-            <div class="col-md-5 right">
+            <div class="col-md-5 col-sm-12 right">
                 <a href="@Url.Action("Index", "Home")" class="TextMenu"><span class="fa fa-home"></span>Trang chủ</a>
                 <a href="0" class="TextMenu">Tin tức</a>
                 <a href="0" class="TextMenu">Thời khóa biểu</a>
@@ -38,24 +38,28 @@
 
         @*Logo, tên trường*@
         <div class="col-md-12 Mid">
-            <div class="col-md-6 left">
-                <div class="col-md-2 Logo">
-                    <img src="~/img/Logo.jpg" class="img-responsive" />
+            <div class="col-md-6  col-sm-12 col-xs-12 left">
+                <div class="col-md-2 col-sm-4 col-xs-4 Logo">
+                    <img src="~/img/Logo.jpg" class="img-responsive" width="80%" />
                 </div>
-                <div class="col-md-7 Text">
+                <div class="col-md-10 col-sm-8 col-xs-8 Text">
                     <p>TRƯỜNG TRUNG CẤP NGHIỆP VỤ</p>
                     <p>VÀ CÔNG NGHỆ HẢI PHÒNG</p>
                 </div>
+                <div class="col-md-6 col-sm-8 col-xs-8 right visible-sm visible-xs hidden-md">
+                    <input placeholder="Tìm kiếm" />
+                    <button class="btn btn-default"><strong class="fa fa-2x fa-search"></strong></button>
+                </div>
             </div>
 
-            <div class="col-md-6 right">
+            <div class="col-md-6 col-sm-8 col-xs-8 right hidden-sm hidden-xs">
                 <input placeholder="Tìm kiếm" />
                 <button class="btn btn-default"><strong class="fa fa-2x fa-search"></strong></button>
             </div>
         </div>
 
         @*Menu chính*@
-        <div class="col-md-12 NavMenu">
+        <div class="col-md-12 col-sm-12 col-xs-12 NavMenu">
             <nav class="navbar navbar-default">
                 <div class="container-fluid">
                     <ul class="nav navbar-nav">
@@ -104,11 +108,11 @@
         </div>
     </header>
 
-    <div class="Body">
+    <div class="col-md-12 col-sm-12 col-xs-12 Body">
         @RenderBody()
     </div>
 
-    <footer class="col-md-12 Footer">
+    <footer class="col-md-12 col-sm-12 col-xs-12 Footer">
         <div class="col-md-5 LienHe">
             <p class="TieuDe">Liên Hệ</p>
             <p class="NoiDungLon">TRƯỜNG TRUNG CẤP NGHIỆP VỤ VÀ CÔNG NGHỆ HẢI PHÒNG</p>
