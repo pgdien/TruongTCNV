@@ -1,0 +1,112 @@
+﻿/* Small devices (phone, <768px) */
+@media (max-width: 767px) {
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 767px) {
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    /*Bài viết*/
+    .Body > .BaiViet {
+        padding: 0 40px 5px 40px;
+    }
+
+        .Body > .BaiViet > .NoiDung {
+            padding-top: 20px;
+            border-bottom: solid #ccc;
+            padding-bottom:20px;
+            float: left;
+        }
+
+            .Body > .BaiViet > .NoiDung > .TieuDe {
+                font-size: 1.8em;
+                border-bottom: dotted #ccc;
+                padding-bottom: 10px;
+            }
+
+            .Body > .BaiViet > .NoiDung > .TomTat {
+                padding-bottom: 5px;
+                border-bottom: dotted #ccc;
+            }
+
+            .Body > .BaiViet > .NoiDung > .NoiDung {
+            }
+
+                .Body > .BaiViet > .NoiDung > .NoiDung > .Thuong {
+                    text-indent: 20px;
+                    margin-bottom: 0px;
+                }
+
+                .Body > .BaiViet > .NoiDung > .NoiDung > .Lon {
+                    font-weight: bold;
+                }
+
+        .Body > .BaiViet > .BaiMoi {
+            float: right;
+            padding-bottom:10px;
+        }
+
+            .Body > .BaiViet > .BaiMoi > .TieuDe {
+                font-size: 2em;
+                text-align: center;
+            }
+
+            .Body > .BaiViet > .BaiMoi > .NoiDung {
+                border-bottom: dotted #c7c7c7;
+                padding-bottom: 10px;
+            }
+
+                .Body > .BaiViet > .BaiMoi > .NoiDung > a:hover {
+                    text-decoration: dotted underline;
+                }
+
+                .Body > .BaiViet > .BaiMoi > .NoiDung > .Ngay {
+                    color: #ff0000;
+                }
+
+        .Body > .BaiViet > .Anh {
+            text-align: center;
+            float: right;
+        }
+
+            .Body > .BaiViet > .Anh > p {
+                font-size: 1.5em;
+            }
+
+            .Body > .BaiViet > .Anh > img {
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 10px;
+            }
+
+        .Body > .BaiViet > .BaiLienQuan {
+            padding: 0 0 0 0;
+            float: left;
+            padding-top: 10px;
+        }
+
+            .Body > .BaiViet > .BaiLienQuan > .TieuDe {
+                font-size: 2em;
+                color: #ff0000;
+                border-bottom: dotted #ccc;
+            }
+
+            .Body > .BaiViet > .BaiLienQuan > .Tin {
+                height: 345px;
+            }
+
+                .Body > .BaiViet > .BaiLienQuan > .Tin > a:hover {
+                    text-decoration: dotted underline;
+                }
+
+                .Body > .BaiViet > .BaiLienQuan > .Tin > a > .TieuDe {
+                    font-weight: bold;
+                    color: #ff0000;
+                }
+
+                .Body > .BaiViet > .BaiLienQuan > .Tin > a > .NoiDung {
+                    color: #000;
+                }
+}

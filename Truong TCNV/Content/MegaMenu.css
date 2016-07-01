@@ -1,0 +1,124 @@
+﻿/* Mega Menu */
+
+.navbar-default {
+    color: #fff;
+    background-color: #0006ff;
+    border-color: #aca1a2;
+}
+
+    .navbar-default .navbar-nav > li > a {
+        color: #fff;
+    }
+
+    .navbar-default .navbar-nav > .dropdown > a .caret {
+        border-top-color: #fff;
+        border-bottom-color: #fff;
+    }
+
+    .navbar-default .navbar-brand {
+        color: #fff;
+    }
+
+.menu-large {
+    position: static !important;
+}
+
+.megamenu {
+    padding: 20px 0px;
+    color: #fff;
+    background-color: rgb(0, 6, 255);
+    margin-left:20em;
+}
+
+    .megamenu > li > ul {
+        padding: 0;
+        margin: 0;
+    }
+
+
+        .megamenu > li > ul > .MenuCha {
+            color: #ff0000;
+            font-weight: bold;
+            font-size: 20px;
+            text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+        }
+
+        .megamenu > li > ul > li {
+            list-style: none;
+        }
+
+            .megamenu > li > ul > li > a {
+                display: block;
+                clear: both;
+                font-weight: normal;
+                line-height: 1.428571429;
+                color: #333333;
+                white-space: normal;
+                color: #fff;
+                background-color: transparent;
+                font-size: 15px;
+            }
+
+
+
+    .megamenu > li ul > li > a:hover,
+    .megamenu > li ul > li > a:focus {
+        text-decoration: dotted underline;
+        color: #fff;
+        background-color: transparent;
+    }
+
+    .megamenu.disabled > a,
+    .megamenu.disabled > a:hover,
+    .megamenu.disabled > a:focus {
+        color: #999999;
+    }
+
+        .megamenu.disabled > a:hover,
+        .megamenu.disabled > a:focus {
+            text-decoration: none;
+            background-color: transparent;
+            background-image: none;
+            filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+            cursor: not-allowed;
+        }
+
+    .megamenu.dropdown-header {
+        color: #428bca;
+        font-size: 18px;
+    }
+
+@media (max-width: 768px) {
+    .megamenu {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+        .megamenu > li {
+            margin-bottom: 30px;
+        }
+
+            .megamenu > li:last-child {
+                margin-bottom: 0;
+            }
+
+        .megamenu.dropdown-header {
+            padding: 3px 15px !important;
+        }
+
+    .navbar-nav .open .dropdown-menu .dropdown-header {
+        color: #fff;
+    }
+}
+
+
+/*
+ * Dropdown on hover 
+ */
+
+@media (min-width:480px) {
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}
