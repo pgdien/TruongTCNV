@@ -57,6 +57,7 @@
                     color: #0006ff;
                     font-size: 0.7em;
                     font-weight: bold;
+                    padding-bottom:1em;
                 }
 
                     .Header > .Mid > .left > .Text > p {
@@ -70,7 +71,7 @@
             }
 
                 .Header > .Mid .right > input {
-                    font-size: 1.45em;
+                    font-size: 1em;
                     width:70%;
                     display:inline;
                 }
@@ -81,6 +82,8 @@
                     display:block;
                     float:right;
                     border-radius:0px;
+                    padding-bottom:1%;
+                    padding-top:1%;
                 }
 
                 .Header > .Mid .right > button>strong{
@@ -100,7 +103,7 @@
                 .Header > .NavMenu > .navbar-default .navbar-nav > li > a {
                     color: #0006ff;
                     font-size: 1em;
-                    padding-left: 0;
+                    padding-left: 1em;
                 }
     /*Page Home*/
     .Body {
@@ -492,8 +495,7 @@
 
                 .Header > .NavMenu > .navbar-default .navbar-nav > li > a {
                     color: #0006ff;
-                    font-size: 1em;
-                    padding-left: 0;
+                    font-size: 0.8em;
                 }
     /*Page Home*/
     .Body {
@@ -820,9 +822,10 @@
                 .Header > .Mid > .left > .Text {
                     text-align: center;
                     color: #0006ff;
-                    font-size: 1.4em;
+                    font-size: 2em;
                     font-weight: bold;
-                    padding-top: 15px;
+                    padding-top: 0.2em;
+                    padding-left:0;
                 }
 
                     .Header > .Mid > .left > .Text > p {
@@ -831,8 +834,8 @@
 
             .Header > .Mid > .right {
                 float: right;
-                padding-left: 18em;
-                padding-top: 2em;
+                /*padding-left: 18em;
+                padding-top: 2em;*/
                 height: 76px;
             }
 
