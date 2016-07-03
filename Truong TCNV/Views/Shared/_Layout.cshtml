@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
     <title>@ViewBag.Title</title>
     <meta http-equiv="content-language" content="vi" />
-    <link href="~/Content/Images/images/CTA-KhongXoa/Logo.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="~/img/Logo.jpg" rel="shortcut icon" type="image/x-icon" />
 
     @*Bootstrap*@
-    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     @*font awesome*@
     <link href="~/css/font-awesome.min.css" rel="stylesheet" />
     @*Site css*@
@@ -22,12 +22,14 @@
     <header class="col-md-12 Header">
         @*Số ĐT ...*@
         <div class="col-md-12 Top">
+            @*Số ĐT*@
             <div class="col-md-5 col-sm-12 left">
                 <p class="Text">Số điện thoại: (031) 3.851.365 | Fax: (031) 3.851.365</p>
             </div>
 
             <div class="col-md-2 hidden-sm hidden-xs"></div>
 
+            @*Menu Top*@
             <div class="col-md-5 col-sm-12 right">
                 <a href="@Url.Action("Index", "Home")" class="TextMenu"><span class="fa fa-home"></span>Trang chủ</a>
                 <a href="0" class="TextMenu">Tin tức</a>
@@ -36,28 +38,28 @@
             </div>
         </div>
 
-        @*Logo, tên trường*@
+        @*Logo, tên trường, tìm kiếm*@
         <div class="col-md-12 Mid">
+            @*Logo, tên trường*@
             <div class="col-md-7 col-sm-12 col-xs-12 left">
+                @*Logo*@
                 <div class="col-md-2 col-sm-4 col-xs-4 Logo">
                     <img src="~/img/Logo.jpg" class="img-responsive" width="100%" />
                 </div>
+
+                @*Tên Trường*@
                 <div class="col-md-8 col-sm-8 col-xs-8 Text">
                     <p>TRƯỜNG TRUNG CẤP NGHIỆP VỤ</p>
                     <p>VÀ CÔNG NGHỆ HẢI PHÒNG</p>
                 </div>
-                <div class="col-md-6 col-sm-8 col-xs-8 right visible-sm visible-xs hidden-md">
-                    <input placeholder="Tìm kiếm" />
-                    <button class="btn btn-default"><strong class="fa fa-2x fa-search"></strong></button>
+
+                @*Tìm kiếm (Table)*@
+                <div class="col-md-6 col-sm-8 col-xs-8 right visible-sm">
+                    <input placeholder="Tìm kiếm">
+                    <button class="btn btn-default"><strong class="fa fa-search"></strong></button>
                 </div>
             </div>
-
-            <div class="col-md-5 col-sm-8 col-xs-8 right hidden-sm hidden-xs">
-                <input placeholder="Tìm kiếm" />
-                <button class="btn btn-default"><strong class="fa fa-2x fa-search"></strong></button>
-            </div>
         </div>
-
         @*Menu chính*@
         <div class="col-md-12 col-sm-12 col-xs-12 NavMenu">
             <nav class="navbar navbar-default">
@@ -104,24 +106,28 @@
                                 </li>
                             </ul>
                         </li>
-
-
-
-
                         <li class="Menu"><a href="#">PHÒNG BAN</a></li>
                         <li class="Menu"><a href="#">ĐOÀN THANH NIÊN</a></li>
+                        @*Tìm kiếm (Desktop, Mobile)*@
+                        <li class="Menu hidden-sm">
+                            <div>
+                                <input placeholder="Tìm kiếm" />
+                                <button class="btn btn-default"><strong class="fa fa-search"></strong></button>
+                            </div>
+                        </li>
                     </ul>
                 </div>
-        </div>
-        </nav>
+            </nav>
         </div>
     </header>
 
+    @*Body*@
     <div class="col-md-12 col-sm-12 col-xs-12 Body">
         @RenderBody()
     </div>
 
     <footer class="col-md-12 col-sm-12 col-xs-12 Footer">
+        @*Liên hệ*@
         <div class="col-md-5 LienHe">
             <p class="TieuDe">Liên Hệ</p>
             <p class="NoiDungLon">TRƯỜNG TRUNG CẤP NGHIỆP VỤ VÀ CÔNG NGHỆ HẢI PHÒNG</p>
@@ -132,6 +138,7 @@
             <p class="NoiDung">Website: nghiepvucongnghehaiphong.edu.vn</p>
         </div>
 
+        @*Hợp tác*@
         <div class="col-md-3 HopTac">
             <p class="TieuDe">Hợp Tác Quốc Tế</p>
             <a href="0" class="NoiDung"><span class="fa fa-angle-right"></span> Đào tạo liên thông chuyên ngành du học sinh</a>
@@ -141,6 +148,7 @@
             <a href="0" class="NoiDung"><span class="fa fa-angle-right"></span> Hợp tác tuyển sinh du học Hàn Quốc</a>
         </div>
 
+        @*Mạng xã hội*@
         <div class="col-md-4 MangXH">
             <p class="TieuDe">Mạng Xã Hội</p>
             <a href="0" class="NoiDung">

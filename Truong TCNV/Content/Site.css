@@ -12,8 +12,8 @@
             background-color: #0066ff;
             width: 100%;
             padding-top: 5px;
-            padding-left:0;
-            padding-right:0;
+            padding-left: 0;
+            padding-right: 0;
             border-bottom: solid #ff9000;
             height: 3.5em;
         }
@@ -26,7 +26,7 @@
                     font-weight: bold;
                     font-size: 0.9em;
                     color: #fff;
-                    margin-bottom:0;
+                    margin-bottom: 0;
                 }
 
             .Header > .Top > .right {
@@ -37,7 +37,7 @@
                     text-decoration: none;
                     font-size: 0.9em;
                     color: #fff;
-                    padding-right:5px;
+                    padding-right: 5px;
                 }
 
         .Header > .Mid {
@@ -57,7 +57,7 @@
                     color: #0006ff;
                     font-size: 0.7em;
                     font-weight: bold;
-                    padding-bottom:1em;
+                    padding-bottom: 1em;
                 }
 
                     .Header > .Mid > .left > .Text > p {
@@ -72,23 +72,23 @@
 
                 .Header > .Mid .right > input {
                     font-size: 1em;
-                    width:70%;
-                    display:inline;
+                    width: 70%;
+                    display: inline;
                 }
 
                 .Header > .Mid .right > button {
-                    margin-top:0;
-                    width:30%;
-                    display:block;
-                    float:right;
-                    border-radius:0px;
-                    padding-bottom:1%;
-                    padding-top:1%;
+                    margin-top: 0;
+                    width: 30%;
+                    display: block;
+                    float: right;
+                    border-radius: 0px;
+                    padding-bottom: 1%;
+                    padding-top: 1%;
                 }
 
-                .Header > .Mid .right > button>strong{
-                    font-size:1em;
-                }
+                    .Header > .Mid .right > button > strong {
+                        font-size: 1em;
+                    }
 
         .Header > .NavMenu {
             padding: 0 0 0 0;
@@ -100,10 +100,31 @@
                 margin-bottom: 0px;
             }
 
+            .Header > .NavMenu > .navbar-default .navbar-nav > li{
+                padding: 0 1em 0 1em;
+            }
+
+            .Header > .NavMenu > .navbar-default .navbar-nav > li > div > input {
+                    font-size: 1.2em;
+                    width: 80%;
+                    display: inline;
+                    font-style:italic;
+                }
+
+                .Header > .NavMenu > .navbar-default .navbar-nav > li > div > button {
+                    width: 20%;
+                    display: block;
+                    float: right;
+                    border-radius: 0px;
+                    font-size:0.8em;
+                    margin-top:0;
+                }
+
                 .Header > .NavMenu > .navbar-default .navbar-nav > li > a {
                     color: #0006ff;
                     font-size: 1em;
-                    padding-left: 1em;
+                    padding-left: 0;
+                    padding-right: 0;
                 }
     /*Page Home*/
     .Body {
@@ -132,21 +153,21 @@
                 }
 
                 .Body > .HoatDong > .TinChinh > .Tin {
-                    padding:5px 0 0 0;
-                    border-bottom:dotted #ccc;
+                    padding: 5px 0 0 0;
+                    border-bottom: dotted #ccc;
                 }
 
-                .Body > .HoatDong > .TinChinh > .Tin img{
-                    padding:0;
-                }
+                    .Body > .HoatDong > .TinChinh > .Tin img {
+                        padding: 0;
+                    }
 
-                .Body > .HoatDong > .TinChinh > .Tin h4{
-                    margin-top:0;
-                }
+                    .Body > .HoatDong > .TinChinh > .Tin h4 {
+                        margin-top: 0;
+                    }
 
-                .Body > .HoatDong > .TinChinh > .Tin p{
-                    margin-bottom:0;
-                }
+                    .Body > .HoatDong > .TinChinh > .Tin p {
+                        margin-bottom: 0;
+                    }
 
                     .Body > .HoatDong > .TinChinh > .Tin > a:hover {
                         text-decoration: dotted underline;
@@ -162,7 +183,7 @@
                     }
 
             .Body > .HoatDong > .BaiMoi {
-                padding:0;
+                padding: 0;
             }
 
                 .Body > .HoatDong > .BaiMoi > .TieuDe {
@@ -200,21 +221,21 @@
                 }
 
                 .Body > .Doan > .TinChinh > .Tin {
-                    padding:5px 0 0 0;
-                    border-bottom:dotted #ccc;
+                    padding: 5px 0 0 0;
+                    border-bottom: dotted #ccc;
                 }
 
-                .Body > .Doan > .TinChinh > .Tin img{
-                    padding:0;
-                }
+                    .Body > .Doan > .TinChinh > .Tin img {
+                        padding: 0;
+                    }
 
-                .Body > .Doan > .TinChinh > .Tin h4{
-                    margin-top:0;
-                }
+                    .Body > .Doan > .TinChinh > .Tin h4 {
+                        margin-top: 0;
+                    }
 
-                .Body > .Doan > .TinChinh > .Tin p{
-                    margin-bottom:0;
-                }
+                    .Body > .Doan > .TinChinh > .Tin p {
+                        margin-bottom: 0;
+                    }
 
                     .Body > .Doan > .TinChinh > .Tin > a:hover {
                         text-decoration: dotted underline;
@@ -230,7 +251,7 @@
                     }
 
             .Body > .Doan > .TuyenSinh {
-                padding:10px 0 0 0;
+                padding: 10px 0 0 0;
             }
 
                 .Body > .Doan > .TuyenSinh > .panel-primary {
@@ -296,8 +317,8 @@
 
                     .Body > .PhongBan > .panel-primary > .panel-body > .Nganh {
                         height: 174px;
-                        padding-left:0;
-                        padding-right:0;
+                        padding-left: 0;
+                        padding-right: 0;
                     }
 
                         .Body > .PhongBan > .panel-primary > .panel-body > .Nganh:hover {
@@ -472,15 +493,16 @@
                 .Header > .Mid .right > input {
                     font-size: 1.9em;
                     width: 70%;
-                    display:inline;
+                    display: inline;
                 }
 
                 .Header > .Mid .right > button {
-                    width:30%;
-                    display:block;
-                    float:right;
-                    margin-top:0;
-                    border-radius:0px;
+                    width: 30%;
+                    display: block;
+                    float: right;
+                    margin-top: 0;
+                    border-radius: 0px;
+                    font-size:1.49em;
                 }
 
         .Header > .NavMenu {
@@ -489,7 +511,10 @@
 
             .Header > .NavMenu > .navbar-default {
                 background-color: #fff;
-                border-color: #587dff;
+                border-top: solid 1px #ccc;
+                border-bottom: solid 3px #0006ff;
+                border-left:none;
+                border-right:none;
                 margin-bottom: 0px;
             }
 
@@ -777,7 +802,7 @@
             width: 100%;
             padding-top: 5px;
             border-bottom: solid #ff9000;
-            height:initial;
+            height: initial;
         }
 
             .Header > .Top > .left {
@@ -825,7 +850,7 @@
                     font-size: 2em;
                     font-weight: bold;
                     padding-top: 0.2em;
-                    padding-left:0;
+                    padding-left: 0;
                 }
 
                     .Header > .Mid > .left > .Text > p {
@@ -834,24 +859,8 @@
 
             .Header > .Mid > .right {
                 float: right;
-                /*padding-left: 18em;
-                padding-top: 2em;*/
-                height: 76px;
+                padding-right:15em;
             }
-
-                .Header > .Mid > .right > input {
-                    font-size: 1.9em;
-                    width: 70%;
-                    display:inline;
-                }
-
-                .Header > .Mid > .right > button {
-                    width:30%;
-                    display:block;
-                    float:right;
-                    margin-top:0;
-                    border-radius:0px;
-                }
 
         .Header > .NavMenu {
             padding: 0 0 0 0;
@@ -859,10 +868,35 @@
 
             .Header > .NavMenu > .navbar-default {
                 background-color: #fff;
-                border-color: #587dff;
+                border-top: solid 1px #ccc;
+                border-bottom: solid 3px #0006ff;
+                border-left:none;
+                border-right:none;
                 padding-left: 40px;
                 margin-bottom: 0px;
+                border-radius:0px;
             }
+
+            Header > .NavMenu > .navbar-default .navbar-nav > li > div{
+                margin:10px 0px 10px 0px;
+                float:right;
+            }
+
+            .Header > .NavMenu > .navbar-default .navbar-nav > li > div > input {
+                    font-size: 1.2em;
+                    width: 80%;
+                    display: inline;
+                    font-style:italic;
+                }
+
+                .Header > .NavMenu > .navbar-default .navbar-nav > li > div > button {
+                    width: 20%;
+                    display: block;
+                    float: right;
+                    border-radius: 0px;
+                    font-size:0.8em;
+                    margin-top:0;
+                }
 
                 .Header > .NavMenu > .navbar-default .navbar-nav > li > a {
                     color: #0006ff;
