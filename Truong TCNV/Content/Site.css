@@ -15,7 +15,7 @@
             padding-left: 0;
             padding-right: 0;
             border-bottom: solid #ff9000;
-            height: 3.5em;
+            height: 4em;
         }
 
             .Header > .Top > .left {
@@ -57,7 +57,7 @@
                     color: #0006ff;
                     font-size: 0.7em;
                     font-weight: bold;
-                    padding-bottom: 1em;
+                    padding-top: 1em;
                 }
 
                     .Header > .Mid > .left > .Text > p {
@@ -106,7 +106,7 @@
 
             .Header > .NavMenu > .navbar-default .navbar-nav > li > div > input {
                     font-size: 1.2em;
-                    width: 80%;
+                    width: 79%;
                     display: inline;
                     font-style:italic;
                 }
@@ -362,7 +362,7 @@
     /*Footer*/
     .Footer {
         background-color: #01277d;
-        padding: 40px 40px 5px 40px;
+        padding: 5px 5px 5px 10px;
     }
 
         .Footer > .LienHe {
